@@ -5,7 +5,10 @@ object EmployeesDataFrameDemo {
 
   def main(args:Array[String]): Unit = {
 
-
+    val spark = SparkSession.builder()
+      .appName("Employee Dataframe Demo")
+      .master("local[*]")
+      .getOrCreate()
   }
 
 }
