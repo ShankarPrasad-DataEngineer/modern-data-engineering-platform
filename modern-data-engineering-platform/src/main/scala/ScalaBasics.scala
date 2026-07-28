@@ -6,6 +6,7 @@ object ScalaBasics {
 
   def main(args:Array[String]): Unit = {
 
+    //Scala Variables 2 types
     var a = 10 //This is mutable means value of the variable can be changed
     val b = 20 //This is immutable means value of the variable cannot be changed
 

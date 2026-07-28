@@ -7,7 +7,7 @@ object HelloSpark {
       .appName("spark test")
       .master("local[*]")
       .getOrCreate()
-    println("spark Version: " + spark.version)
+    //println("spark Version: " + spark.version)
 
     spark.stop()
 
